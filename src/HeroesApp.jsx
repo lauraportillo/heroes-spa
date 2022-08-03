@@ -1,5 +1,5 @@
 // Styles
-import '../src/stylesheets/HeroesApp.scss';
+import './styles.scss';
 
 export const HeroesApp = () => {
   return (
