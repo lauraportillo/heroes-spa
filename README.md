@@ -1,8 +1,4 @@
-# Practicing Custom Hooks!
-
-Work in progress ⛏
-
-Practicing Custom Hooks with **React.JS**
+# Heroes SPA
 
 ### 🚀🚀🚀🚀🚀
 

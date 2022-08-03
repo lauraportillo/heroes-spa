@@ -1,10 +1,12 @@
+//Components
+import { AppRouter } from './router/AppRouter';
 // Styles
 import './styles.scss';
 
 export const HeroesApp = () => {
   return (
     <>
-      <h1>HeroesApp</h1>
+      <AppRouter />
     </>
   );
 };
