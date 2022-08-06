@@ -1,10 +1,17 @@
+import { useMemo } from 'react';
 import { Navigate, useParams, useNavigate } from 'react-router-dom';
 import { getHeroById } from '../helpers';
+
+// USAMOS USEMEMO PARA MEMORIZAR VALORES
+// USAMOS USECALLBACK PARA MEMORIZAR FUNCIONES
 
 export const HeroPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const hero = getHeroById(id);
+
+  // useMemo:
+  const hero = useMemo(() => getHeroById(id), [id]);
+
   const heroImageUrl = `/assets/heroes/${id}.jpg`;
 
   const onNavigateBack = () => {
