@@ -44,7 +44,7 @@ export const SearchPage = () => {
               onChange={onInputChange}
             />
 
-            <button className="btn btn-outline-primary mt-1">Search</button>
+            <button className="btn btn-outline-primary mt-2">Search</button>
           </form>
         </div>
 
