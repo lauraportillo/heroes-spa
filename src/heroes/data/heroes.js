@@ -5,8 +5,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Bruce Wayne',
         'first_appearance': 'Detective Comics #27',
-        'characters': 'Bruce Wayne',
-        'image': '/assets/heroes/dc-batman.jpg'
+        'characters': 'Bruce Wayne'
     },
     {
         'id': 'dc-superman',
@@ -14,8 +13,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Kal-El',
         'first_appearance': 'Action Comics #1',
-        'characters': 'Kal-El',
-        'image': '/assets/heroes/dc-superman.jpg'
+        'characters': 'Kal-El'
     },
     {
         'id': 'dc-flash',
@@ -23,8 +21,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Jay Garrick',
         'first_appearance': 'Flash Comics #1',
-        'characters': 'Jay Garrick, Barry Allen, Wally West, Bart Allen',
-        'image': '/assets/heroes/dc-flash.jpg'
+        'characters': 'Jay Garrick, Barry Allen, Wally West, Bart Allen'
     },
     {
         'id': 'dc-green',
@@ -32,8 +29,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Alan Scott',
         'first_appearance': 'All-American Comics #16',
-        'characters': 'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz',
-        'image': '/assets/heroes/dc-green.jpg'
+        'characters': 'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz'
     },
     {
         'id': 'dc-arrow',
@@ -41,8 +37,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Oliver Queen',
         'first_appearance': 'More Fun Comics #73',
-        'characters': 'Oliver Queen',
-        'image': '/assets/heroes/dc-arrow.jpg'
+        'characters': 'Oliver Queen'
     },
     {
         'id': 'dc-wonder',
@@ -50,8 +45,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Princess Diana',
         'first_appearance': 'All Star Comics #8',
-        'characters': 'Princess Diana',
-        'image': '/assets/heroes/dc-wonder.jpg'
+        'characters': 'Princess Diana'
     },
     {
         'id': 'dc-martian',
@@ -59,8 +53,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'J\'onn J\'onzz',
         'first_appearance': 'Detective Comics #225',
-        'characters': 'Martian Manhunter',
-        'image': '/assets/heroes/dc-martian.jpg'
+        'characters': 'Martian Manhunter'
     },
     {
         'id': 'dc-robin',
@@ -68,8 +61,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Dick Grayson',
         'first_appearance': 'Detective Comics #38',
-        'characters': 'Dick Grayson',
-        'image': '/assets/heroes/dc-robin.jpg'
+        'characters': 'Dick Grayson'
     },
     {
         'id': 'dc-blue',
@@ -77,8 +69,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Dan Garret',
         'first_appearance': 'Mystery Men Comics #1',
-        'characters': 'Dan Garret, Ted Kord, Jaime Reyes',
-        'image': '/assets/heroes/dc-blue.jpg'
+        'characters': 'Dan Garret, Ted Kord, Jaime Reyes'
     },
     {
         'id': 'dc-black',
@@ -86,8 +77,7 @@ export const heroes = [
         'publisher': 'DC Comics',
         'alter_ego': 'Dinah Drake',
         'first_appearance': 'Flash Comics #86',
-        'characters': 'Dinah Drake, Dinah Lance',
-        'image': '/assets/heroes/dc-black.jpg'
+        'characters': 'Dinah Drake, Dinah Lance'
     },
     {
         'id': 'marvel-spider',
