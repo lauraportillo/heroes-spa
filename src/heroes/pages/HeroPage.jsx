@@ -12,7 +12,7 @@ export const HeroPage = () => {
   // useMemo:
   const hero = useMemo(() => getHeroById(id), [id]);
 
-  const heroImageUrl = `/heroes-spa/assets/heroes/${id}.jpg`;
+  const heroImageUrl = `/assets/heroes/${id}.jpg`;
 
   const onNavigateBack = () => {
     navigate(-1);
