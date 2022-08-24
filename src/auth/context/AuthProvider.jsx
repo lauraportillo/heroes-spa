@@ -19,15 +19,20 @@ const init = () => {
 export const AuthProvider = ({ children }) => {
   const [authState, dispatch] = useReducer(authReducer, {}, init);
 
+  // Función de Longin
   const login = (name = '') => {
     const user = { id: 'ABC', name };
-
-    const action = {
-      type: types.login,
-      payload: user,
-    };
+    const action = { type: types.login, payload: user };
 
     localStorage.setItem('user', JSON.stringify(user));
+
+    dispatch(action);
+  };
+
+  // Función de Logout
+  const logout = () => {
+    localStorage.removeItem('user');
+    const action = { type: types.logout };
 
     dispatch(action);
   };
@@ -37,6 +42,7 @@ export const AuthProvider = ({ children }) => {
       value={{
         ...authState,
         login: login,
+        logout: logout,
       }}
     >
       {children}
